@@ -269,3 +269,6 @@ th, td {
     padding: 5px; 
     font-family: "Open Sans", sans-serif; 
 }
+.bold {
+    font-weight: 700; 
+}
