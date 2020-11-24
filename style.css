@@ -1,0 +1,271 @@
+* {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1 {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 2rem;
+    color: #18222D;
+    line-height: 0.5;
+}
+
+h2 {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 1.5rem;
+}
+
+
+h3 {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 1.25rem;
+}
+
+h4 {
+    font-family: "Goudy Bookletter 1911", serif;
+    font-size: 1.5rem;
+    font-weight: 800; 
+}
+
+h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8rem;
+}
+
+h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.7rem;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 10pt;
+    line-height: 0.5;
+}
+
+.fa-coffee {
+    font-size: 1rem;
+    line-height: 0;
+}
+
+.container {
+    min-width: 100%;
+    min-height: 1vh;
+    padding: 0;
+}
+
+.site-title {
+    display: absolute;
+    font-size: 24pt;
+}
+
+.site-header {
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-hover {
+    padding: 1rem;
+    color: white;
+    line-height: 75%;
+}
+
+.navbar-hover:hover {
+    color: #DB8E2E !important;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #253F53;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 2rem;
+}
+
+.fit-image {
+    width: 100%;
+    object-fit: cover;
+    max-height: 250px;
+}
+
+.row {
+    min-width: 100%;
+}
+
+.ann-square {
+    background-color: #32566F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4%;
+    height: 250px;
+
+}
+
+.no-padding {
+    padding: 0;
+    margin: 0;
+}
+
+.padding {
+    padding: 3.25rem;
+}
+
+.main-nav-buttons {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+
+}
+
+.square-info {
+    min-height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    background-color: #18222D;
+    color: white;
+
+    transition:
+        transform 500ms linear,
+}
+
+.square-info:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 5px rgb(150, 150, 150);
+}
+
+.square-info p {
+    line-height: 1.5;
+}
+
+.button {
+    background-color: #FBC363;
+    padding: 15px;
+    border-radius: 100px;
+    font-size: 10pt;
+    color: #18222D;
+
+}
+
+.button:hover {
+    background-color: #BD7E22;
+    text-decoration: none;
+    color: white;
+}
+
+.blue-bg {
+    background-color: #32566F;
+    color: white;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 5%;
+}
+
+.empty {
+    min-height: 50px;
+}
+
+footer {
+    background-color: #18222D !important;
+    padding: 5%;
+}
+
+.social-media-icons {
+    height: 40px;
+    width: 40px;
+}
+
+.icons a img:hover {
+    transform: scale(1.25);
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.bg-loc-img {
+    background-image: url("location.jpg");
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image-header {
+    margin: 15%;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+    padding: 1%;
+
+    font-size: 2rem;
+    font-weight: 800;
+    background-color: rgba(219, 142, 46, 0.7);
+}
+
+.locations-info {
+    text-align: center;
+    padding: 2rem;
+}
+
+.address {
+    padding: 0.5rem;
+    line-height: 0.1;
+}
+
+.address h4 {
+    line-height: 2.5; 
+}
+
+footer {
+    background-color: #253F53 !important;
+}
+
+#middle-info-block {
+    border-left: 12px solid #253F53;
+    border-right: 12px solid #253F53;
+
+
+}
+
+.empty {
+    min-height: 30px;
+}
+
+.divider hr {
+    border: 6px solid #18222D;
+}
+
+.line-yellow hr {
+    border: 3px solid #BD7E22;
+}
+
+
+.width-50 {
+    width: 50%; 
+}
+
+th, td {
+    padding: 5px; 
+    font-family: "Open Sans", sans-serif; 
+}
