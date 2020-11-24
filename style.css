@@ -88,7 +88,7 @@ p {
 .fit-image {
     width: 100%;
     object-fit: cover;
-    max-height: 250px;
+    min-height: 250px;
 }
 
 .row {
@@ -103,7 +103,7 @@ p {
     justify-content: center;
     flex-direction: column;
     padding: 4%;
-    height: 250px;
+    min-height: 250px;
 
 }
 
@@ -203,7 +203,7 @@ footer {
 }
 
 .bg-loc-img {
-    background-image: url("location.jpeg");
+    background-image: url("locations.jpg");
 
     background-position: center;
     background-repeat: no-repeat;
@@ -217,10 +217,9 @@ footer {
 
     color: white;
     padding: 1%;
-
     font-size: 2rem;
     font-weight: 800;
-    background-color: rgba(219, 142, 46, 0.7);
+    background-color: rgba(24, 34, 45, 0.7);
 }
 
 .locations-info {
